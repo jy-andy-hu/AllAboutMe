@@ -19,18 +19,18 @@ website:
       - section: "Project Gallary"
         contents:
           - text: "Power BI Projects"
+            href: powerbi.qmd
           - text: "Tableau Projects"
+            href: tableau.qmd
       - section: "For Education"
         contents:
           - text: "Introduction to SQL"
             href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
-
+          - text: "A Collection of Practical Projects with R"
+            href: https://jy-andy-hu.github.io/Education_R/
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-

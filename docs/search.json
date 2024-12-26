@@ -1,12 +1,5 @@
 [
   {
-    "objectID": "powerbi.html",
-    "href": "powerbi.html",
-    "title": "Personal Project Gallary",
-    "section": "",
-    "text": "Hello! Please use the navigation meanu from the left to see all projects that I have been working on!"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Welcome!!! 🎉🎉",
@@ -14,6 +7,17 @@
     "text": "Warm Greetings!\nMy name is Jianyuan(most people will know me as Andy) Hu. TDLR, I am a CPA and am quite active as an analytics engineer. Once again thank you for paying me a visit.\n\nIf you are interested in knowing more about me, please read on. Or,\nIf you are interested in what I have been working on and you can find all of it\n\n, I am a CPA, so by trade, that makes me an accoutant. Halfway into 2020, shortly after I got my designation, I decided\nYou are at the door step",
     "crumbs": [
       "About Me"
+    ]
+  },
+  {
+    "objectID": "powerbi.html",
+    "href": "powerbi.html",
+    "title": "Power BI Project Gallary",
+    "section": "",
+    "text": "Hello! Please use the navigation meanu from the left to see all projects that I have been working on!",
+    "crumbs": [
+      "Project Gallary",
+      "Power BI Projects"
     ]
   }
 ]

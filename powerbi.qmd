@@ -1,5 +1,7 @@
 ---
-title: "Personal Project Gallary"
+title: "Power BI Project Gallary"
+date: 2024-12-31
+author: Jianyuan(Andy) Hu
 ---
 
 Hello! Please use the navigation meanu from the left to see all projects that I have been working on!
