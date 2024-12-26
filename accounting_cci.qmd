@@ -1,0 +1,36 @@
+---
+title: "Visual Analytics for Camelot Caves Inc. (CCI)"
+subtitle: "A capstone accounting case that combine core management accounting skills with modern analytics"
+date: 2024-12-31
+author: Jianyuan(Andy) Hu
+
+format: 
+  html: 
+    toc: false
+---
+
+## Welcome !!
+
+Case "Camelot Caves Inc. (CCI)" is created and designed by: 
+
+- Barbara Sainty
+- Staci Kenno
+- Jianyuan(Andy) Hu
+
+I really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education. 
+
+This page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.
+
+Please see "Special Credits" page of the report for full credits and acknowledgements. 
+
+::: {.panel-tabset}
+
+## Power BI
+
+For Power BI version, please following the link here: [Camelot Caves Inc. Power BI](https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9)
+
+## Tableau
+
+For best Tableau viewing experience, please following the link here: [Camelot Caves Inc. Tableau](https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+:::

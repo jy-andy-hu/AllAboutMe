@@ -2,7 +2,16 @@
 title: "Power BI Project Gallary"
 date: 2024-12-31
 author: Jianyuan(Andy) Hu
+
+format: 
+  html: 
+    toc: true
+    toc-location: right
+    number-sections: false
 ---
 
-Hello! Please use the navigation meanu from the left to see all projects that I have been working on!
+## Welcome
 
+Hello! Here is a collection of my hobby projects done with Power BI. 
+
+## Analytics for Accounting Wine Case (CCI)

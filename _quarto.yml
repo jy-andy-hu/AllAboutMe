@@ -4,6 +4,15 @@ project:
 
 website:
   title: "Jianyuan(Andy) Hu"
+  page-footer: 
+    left: Created by Jianyuan(Andy) Hu, 2024 
+    right: |
+     This book was built with <a href="https://quarto.org/">Quarto</a>.
+
+  repo-url: https://github.com/jy-andy-hu/Education_MySQL_Introduction
+  repo-branch: main
+  repo-actions: issue
+
   sidebar:
     style: "floating"
     search: true
@@ -16,11 +25,11 @@ website:
     contents:
       - text: "About Me"
         href: index.qmd
-      - section: "Project Gallary"
+      - section: "Project Gallery"
         contents:
-          - text: "Power BI Projects"
+          - text: "Power BI"
             href: powerbi.qmd
-          - text: "Tableau Projects"
+          - text: "Tableau"
             href: tableau.qmd
       - section: "For Education"
         contents:
@@ -28,6 +37,8 @@ website:
             href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
           - text: "A Collection of Practical Projects with R"
             href: https://jy-andy-hu.github.io/Education_R/
+          - text: "Capstone Accounting Case (CCI)"
+            href: accounting_cci.qmd
 
 format:
   html:
