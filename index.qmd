@@ -1,0 +1,25 @@
+---
+title: "Welcome!!! 🎉🎉" 
+about: 
+  template: jolla
+  links: 
+    - icon: linkedin
+      text: LinkedIn
+      href: http://linkedin.com/in/andyhu1
+    - icon: github
+      text: Github
+      href: https://github.com/jy-andy-hu
+---
+
+Warm Greetings!
+
+My name is Jianyuan(most people will know me as Andy) Hu. TDLR, I am a CPA and am quite active as an analytics engineer. Once again thank you for paying me a visit.
+
+-   If you are interested in knowing more about me, please read on. Or,
+-   If you are interested in what I have been working on and you can find all of it
+
+, I am a CPA, so by trade, that makes me an accoutant. Halfway into 2020, shortly after I got my designation, I decided
+
+You are at the door step
+
+

@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Jianyuan(Andy) Hu"
+  sidebar:
+    style: "floating"
+    search: true
+    background: "none"
+    tools:
+    - icon: linkedin
+      href: http://linkedin.com/in/andyhu1
+    - icon: github
+      href: https://github.com/jy-andy-hu
+    contents:
+      - text: "About Me"
+        href: index.qmd
+      - section: "Project Gallary"
+        contents:
+          - text: "Power BI Projects"
+          - text: "Tableau Projects"
+      - section: "For Education"
+        contents:
+          - text: "Introduction to SQL"
+            href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
+
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
