@@ -1,6 +1,6 @@
 ---
-title: "Global Superstore Performance"
-date: 2024-11-05
+title: "Camelot Caves Inc. - Tableau"
+date: 2024-12-10
 author: Jianyuan(Andy) Hu
 categories: 
   - "Tableau"
