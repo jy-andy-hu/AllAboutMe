@@ -1,7 +1,7 @@
 ---
 title: "Visual Analytics for Camelot Caves Inc. (CCI)"
 subtitle: "A capstone accounting case that combine core management accounting skills with modern analytics"
-date: 2024-12-31
+date: 2024-12-10
 author: Jianyuan(Andy) Hu
 
 format: 
@@ -19,7 +19,10 @@ Case "Camelot Caves Inc. (CCI)" is created and designed by:
 
 I really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education. 
 
-This page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.
+Please note
+
+- This page does not contain the full solution for CCI case. 
+- This page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools. 
 
 Please see "Special Credits" page of the report for full credits and acknowledgements. 
 

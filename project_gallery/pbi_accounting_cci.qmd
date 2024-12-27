@@ -1,0 +1,12 @@
+---
+title: "Camelot Caves Inc."
+date: 2024-12-10
+author: Jianyuan(Andy) Hu
+categories: 
+  - "Power BI"
+  - "Data Viz"
+---
+
+This is for an accounting case namely Camelot Caves Inc.
+
+View here: [Power BI-Camelot Caves Inc.](https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9)

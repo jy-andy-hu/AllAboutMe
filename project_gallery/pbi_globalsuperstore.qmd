@@ -1,0 +1,12 @@
+---
+title: "Global Superstore Performance"
+date: 2024-11-05
+author: Jianyuan(Andy) Hu
+categories: 
+  - "Power BI"
+  - "Data Viz"
+---
+
+This is based on the classic demo data for tableau and has been reused for Power BI report. 
+
+View here: [Power BI-Global Superstore](https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9)

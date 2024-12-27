@@ -21,44 +21,25 @@
     "text": "Wengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Sept 2012 - April 2018"
   },
   {
-    "objectID": "powerbi.html",
-    "href": "powerbi.html",
-    "title": "Power BI Project Gallary",
+    "objectID": "project_gallery/tableau_accounting_cci.html",
+    "href": "project_gallery/tableau_accounting_cci.html",
+    "title": "Global Superstore Performance",
     "section": "",
-    "text": "Hello! Here is a collection of my hobby projects done with Power BI.",
-    "crumbs": [
-      "Project Gallery",
-      "Power BI"
-    ]
+    "text": "This is for an accounting case, namely Camelot Caves Inc.\nView here: Tableau-Camelot Caves Inc."
   },
   {
-    "objectID": "powerbi.html#welcome",
-    "href": "powerbi.html#welcome",
-    "title": "Power BI Project Gallary",
+    "objectID": "project_gallery/pbi_accounting_cci.html",
+    "href": "project_gallery/pbi_accounting_cci.html",
+    "title": "Camelot Caves Inc.",
     "section": "",
-    "text": "Hello! Here is a collection of my hobby projects done with Power BI.",
-    "crumbs": [
-      "Project Gallery",
-      "Power BI"
-    ]
-  },
-  {
-    "objectID": "powerbi.html#analytics-for-accounting-wine-case-cci",
-    "href": "powerbi.html#analytics-for-accounting-wine-case-cci",
-    "title": "Power BI Project Gallary",
-    "section": "Analytics for Accounting Wine Case (CCI)",
-    "text": "Analytics for Accounting Wine Case (CCI)",
-    "crumbs": [
-      "Project Gallery",
-      "Power BI"
-    ]
+    "text": "This is for an accounting case namely Camelot Caves Inc.\nView here: Power BI-Camelot Caves Inc."
   },
   {
     "objectID": "accounting_cci.html",
     "href": "accounting_cci.html",
     "title": "Visual Analytics for Camelot Caves Inc. (CCI)",
     "section": "",
-    "text": "Case “Camelot Caves Inc. (CCI)” is created and designed by:\n\nBarbara Sainty\nStaci Kenno\nJianyuan(Andy) Hu\n\nI really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education.\nThis page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.\nPlease see “Special Credits” page of the report for full credits and acknowledgements.\n\nPower BITableau\n\n\nFor Power BI version, please following the link here: Camelot Caves Inc. Power BI\n\n\nFor best Tableau viewing experience, please following the link here: Camelot Caves Inc. Tableau",
+    "text": "Case “Camelot Caves Inc. (CCI)” is created and designed by:\n\nBarbara Sainty\nStaci Kenno\nJianyuan(Andy) Hu\n\nI really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education.\nPlease note\n\nThis page does not contain the full solution for CCI case.\nThis page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.\n\nPlease see “Special Credits” page of the report for full credits and acknowledgements.\n\nPower BITableau\n\n\nFor Power BI version, please following the link here: Camelot Caves Inc. Power BI\n\n\nFor best Tableau viewing experience, please following the link here: Camelot Caves Inc. Tableau",
     "crumbs": [
       "For Education",
       "Capstone Accounting Case (CCI)"
@@ -69,7 +50,7 @@
     "href": "accounting_cci.html#welcome",
     "title": "Visual Analytics for Camelot Caves Inc. (CCI)",
     "section": "",
-    "text": "Case “Camelot Caves Inc. (CCI)” is created and designed by:\n\nBarbara Sainty\nStaci Kenno\nJianyuan(Andy) Hu\n\nI really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education.\nThis page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.\nPlease see “Special Credits” page of the report for full credits and acknowledgements.\n\nPower BITableau\n\n\nFor Power BI version, please following the link here: Camelot Caves Inc. Power BI\n\n\nFor best Tableau viewing experience, please following the link here: Camelot Caves Inc. Tableau",
+    "text": "Case “Camelot Caves Inc. (CCI)” is created and designed by:\n\nBarbara Sainty\nStaci Kenno\nJianyuan(Andy) Hu\n\nI really take the pleasure to work with Barbara and Staci to heart and contribute to a modern accounting education.\nPlease note\n\nThis page does not contain the full solution for CCI case.\nThis page has a suggested visual analytics solution for CCI case. It only serves as a guidence, and it by no means a definitive or the only solution. It has both Power BI and Tableau version, in case students would like to learn either of the tools.\n\nPlease see “Special Credits” page of the report for full credits and acknowledgements.\n\nPower BITableau\n\n\nFor Power BI version, please following the link here: Camelot Caves Inc. Power BI\n\n\nFor best Tableau viewing experience, please following the link here: Camelot Caves Inc. Tableau",
     "crumbs": [
       "For Education",
       "Capstone Accounting Case (CCI)"
@@ -103,6 +84,33 @@
     "text": "I am glad that you are interested in me enough to read along here. I am a CPA, so by trade, that makes me an accountant.\nThat said, I’m a data nerd, too. Occasionally, I make a bunch of funny names like R, Python, SQL, Excel, Microsoft Fabric (including Power BI), Tableau etc. all dance together so that people can make the best out of their data. People also call me analytics engineer at times. I’m a big in the magic when you mix classic accounting with modern analytics – it’s like peanut butter and jelly, but for business.\nEducation is a BIG deal to me. I love helping others to grow. When I’m not nerding out things, you can find me in the classroom, teaching courses at colleges/universities/professional associations. Subjects vary: accounting, statistics, data tool stacks, you name it.\nI am leaving my LinkedIn contact right below. If you believe I can make your life better in anyways, or if you like exchange ideas, let’s connect! 🤝",
     "crumbs": [
       "About Me"
+    ]
+  },
+  {
+    "objectID": "project_gallery/pbi_globalsuperstore.html",
+    "href": "project_gallery/pbi_globalsuperstore.html",
+    "title": "Global Superstore Performance",
+    "section": "",
+    "text": "This is based on the classic demo data for tableau and has been reused for Power BI report.\nView here: Power BI-Global Superstore"
+  },
+  {
+    "objectID": "project_gallery.html",
+    "href": "project_gallery.html",
+    "title": "Project Gallary",
+    "section": "",
+    "text": "Hello! Here is a collection of my hobby projects done with various tools.",
+    "crumbs": [
+      "Project Gallery"
+    ]
+  },
+  {
+    "objectID": "project_gallery.html#welcome",
+    "href": "project_gallery.html#welcome",
+    "title": "Project Gallary",
+    "section": "",
+    "text": "Hello! Here is a collection of my hobby projects done with various tools.",
+    "crumbs": [
+      "Project Gallery"
     ]
   }
 ]

@@ -9,7 +9,7 @@ website:
     right: |
      This book was built with <a href="https://quarto.org/">Quarto</a>.
 
-  repo-url: https://github.com/jy-andy-hu/Education_MySQL_Introduction
+  repo-url: https://github.com/jy-andy-hu/AllAboutMe
   repo-branch: main
   repo-actions: issue
 
@@ -25,12 +25,8 @@ website:
     contents:
       - text: "About Me"
         href: index.qmd
-      - section: "Project Gallery"
-        contents:
-          - text: "Power BI"
-            href: powerbi.qmd
-          - text: "Tableau"
-            href: tableau.qmd
+      - text: "Project Gallery"
+        href: project_gallery.qmd
       - section: "For Education"
         contents:
           - text: "Introduction to SQL"

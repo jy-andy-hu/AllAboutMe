@@ -1,0 +1,28 @@
+---
+title: "Project Gallary"
+date: 2024-12-31
+author: Jianyuan(Andy) Hu
+
+toc: false
+
+listing: 
+  type: default
+  categories: true
+  date-format: iso
+  fields: 
+    - "date"
+    - "title"
+    - "categories"
+    - "description"
+  contents: 
+    - "project_gallery/*.qmd"
+  sort: 
+    - "date desc"
+---
+
+## Welcome
+
+Hello! Here is a collection of my hobby projects done with various tools.
+
+-------
+
