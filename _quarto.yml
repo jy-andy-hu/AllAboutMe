@@ -29,11 +29,7 @@ website:
         href: project_gallery.qmd
       - section: "For Education"
         contents:
-          - text: "Introduction to SQL"
-            href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
-          - text: "A Collection of Practical Projects with R"
-            href: https://jy-andy-hu.github.io/Education_R/
-          - text: "Capstone Accounting Case (CCI)"
+          - text: "Camelot Caves Inc. (CCI)"
             href: accounting_cci.qmd
 
 format:

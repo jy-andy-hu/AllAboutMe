@@ -82,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     const options = {
       valueNames: ['listing-date','listing-title','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+      searchColumns: ["listing-title","listing-categories"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -194,20 +194,8 @@ window.Quarto = {
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Introduction to SQL</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="https://jy-andy-hu.github.io/Education_R/" class="sidebar-item-text sidebar-link">
- <span class="menu-text">A Collection of Practical Projects with R</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
   <a href="./accounting_cci.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">Capstone Accounting Case (CCI)</span></a>
+ <span class="menu-text">Camelot Caves Inc.&nbsp;(CCI)</span></a>
   </div>
 </li>
       </ul>
@@ -218,7 +206,7 @@ window.Quarto = {
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Data Viz">Data Viz <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Power BI">Power BI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Tableau">Tableau <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Data Engineering">Data Engineering <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Data Visualization">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Data Viz">Data Viz <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Education">Education <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Power BI">Power BI <span class="quarto-category-count">(2)</span></div><div class="category" data-category="R">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SQL">SQL <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tableau">Tableau <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
@@ -256,6 +244,14 @@ window.Quarto = {
 <section id="welcome" class="level2">
 <h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
 <p>Hello! Here is a collection of my hobby projects done with various tools.</p>
+</section>
+<section id="how-does-this-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-this-work">How Does This Work?</h2>
+<p>To start with, you will be able to find a list of all my projects.</p>
+<p>There is also a search box that allows you to search by a project name (like Camelot Caves Inc.) or filter by a particular tag (like “Power BI”).</p>
+<p>Click on any project name will redirect you to view a particular project.</p>
+<p>After you are redirected to that project, and if you wish to come back to this page, you can easily do so by clicking the “Go Back” button on your browser.</p>
+<p>Have fun and enjoy!</p>
 <hr>
 
 
@@ -263,14 +259,20 @@ window.Quarto = {
 </section>
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="Power BI,Data Viz" data-listing-date-sort="1733806800000" data-listing-file-modified-sort="1735261161329" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="15">
+<div class="quarto-post image-right" data-index="0" data-categories="Power BI,Data Viz,Education" data-listing-date-sort="1733806800000">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./project_gallery/pbi_accounting_cci.html" class="no-external">Camelot Caves Inc.&nbsp;- Power BI</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">Camelot Caves Inc.&nbsp;- Power BI</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./project_gallery/pbi_accounting_cci.html" class="no-external"></a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Power BI'); return false;">
@@ -279,26 +281,29 @@ Power BI
 <div class="listing-category" onclick="window.quartoListingCategory('Data Viz'); return false;">
 Data Viz
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Education'); return false;">
+Education
+</div>
 </div>
 <div class="listing-description">
-<a href="./project_gallery/pbi_accounting_cci.html" class="no-external">This is for an accounting case, namely Camelot Caves Inc.</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">This is for an accounting case, namely Camelot Caves Inc.&nbsp;See ‘Visual Analytics for Camelot Caves Inc.&nbsp;(CCI)’ in ‘For Education’ section for more details.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./project_gallery/pbi_accounting_cci.html" class="no-external">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
 <div class="listing-date">
 2024-12-10
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Tableau,Data Viz" data-listing-date-sort="1733806800000" data-listing-file-modified-sort="1735261158496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="14">
+<div class="quarto-post image-right" data-index="1" data-categories="Tableau,Data Viz,Education" data-listing-date-sort="1733806800000">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./project_gallery/tableau_accounting_cci.html" class="no-external">Camelot Caves Inc.&nbsp;- Tableau</a>
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">Camelot Caves Inc.&nbsp;- Tableau</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./project_gallery/tableau_accounting_cci.html" class="no-external"></a>
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Tableau'); return false;">
@@ -307,26 +312,94 @@ Tableau
 <div class="listing-category" onclick="window.quartoListingCategory('Data Viz'); return false;">
 Data Viz
 </div>
+<div class="listing-category" onclick="window.quartoListingCategory('Education'); return false;">
+Education
+</div>
 </div>
 <div class="listing-description">
-<a href="./project_gallery/tableau_accounting_cci.html" class="no-external">This is for an accounting case, namely Camelot Caves Inc.</a>
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">This is for an accounting case, namely Camelot Caves Inc.&nbsp;See ‘Visual Analytics for Camelot Caves Inc.&nbsp;(CCI)’ in ‘For Education’ section for more details.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./project_gallery/tableau_accounting_cci.html" class="no-external">
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">
 <div class="listing-date">
 2024-12-10
 </div>
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Power BI,Data Viz" data-listing-date-sort="1730782800000" data-listing-file-modified-sort="1735260907648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="23">
+<div class="quarto-post image-right" data-index="2" data-categories="SQL,Data Engineering,Education" data-listing-date-sort="1731214800000">
 <div class="body">
 <h3 class="no-anchor listing-title">
-<a href="./project_gallery/pbi_globalsuperstore.html" class="no-external">Global Superstore Performance</a>
+<a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="no-external">Introduction to SQL</a>
 </h3>
 <div class="listing-subtitle">
-<a href="./project_gallery/pbi_globalsuperstore.html" class="no-external"></a>
+<a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('SQL'); return false;">
+SQL
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Engineering'); return false;">
+Data Engineering
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Education'); return false;">
+Education
+</div>
+</div>
+<div class="listing-description">
+<a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="no-external">This workbook is designed for my students to learn basics of SQL using MySQL database as the database environment.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="no-external">
+<div class="listing-date">
+2024-11-10
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="R,Data Engineering,Data Visualization,Education" data-listing-date-sort="1724126400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://jy-andy-hu.github.io/Education_R/" class="no-external">A Collection of Practical Projects with R</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://jy-andy-hu.github.io/Education_R/" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('R'); return false;">
+R
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Engineering'); return false;">
+Data Engineering
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Data Visualization'); return false;">
+Data Visualization
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Education'); return false;">
+Education
+</div>
+</div>
+<div class="listing-description">
+<a href="https://jy-andy-hu.github.io/Education_R/" class="no-external">This collection is designed for my students or anyone who want to be productive and analytical with R through a series of practical data projects.</a>
+</div>
+</div>
+<div class="metadata">
+<a href="https://jy-andy-hu.github.io/Education_R/" class="no-external">
+<div class="listing-date">
+2024-08-20
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Power BI,Data Viz" data-listing-date-sort="1701752400000">
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">Global Superstore Performance</a>
+</h3>
+<div class="listing-subtitle">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external"></a>
 </div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Power BI'); return false;">
@@ -337,13 +410,13 @@ Data Viz
 </div>
 </div>
 <div class="listing-description">
-<a href="./project_gallery/pbi_globalsuperstore.html" class="no-external">This is based on the classic demo data for tableau and has been reused for Power BI report.</a>
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">This is an inspiration from the classic Tableau demo project - Global Superstore reimagined and expressed in Power BI.</a>
 </div>
 </div>
 <div class="metadata">
-<a href="./project_gallery/pbi_globalsuperstore.html" class="no-external">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
 <div class="listing-date">
-2024-11-05
+2023-12-05
 </div>
 </a>
 </div>

@@ -14,8 +14,48 @@ listing:
     - "title"
     - "categories"
     - "description"
+  filter-ui: [title, categories]
   contents: 
-    - "project_gallery/*.qmd"
+    - title: "Global Superstore Performance"
+      date: 2023-12-05
+      categories: 
+        - "Power BI"
+        - "Data Viz"
+      path: https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+      description: "This is an inspiration from the classic Tableau demo project - Global Superstore reimagined and expressed in Power BI."
+    - title: "Introduction to SQL"
+      date: 2024-11-10
+      categories: 
+        - "SQL"
+        - "Data Engineering"
+        - "Education"
+      path: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
+      description: "This workbook is designed for my students to learn basics of SQL using MySQL database as the database environment."
+    - title: "A Collection of Practical Projects with R"
+      date: 2024-08-20
+      categories: 
+        - "R"
+        - "Data Engineering"
+        - "Data Visualization"
+        - "Education"
+      path: https://jy-andy-hu.github.io/Education_R/
+      description: "This collection is designed for my students or anyone who want to be productive and analytical with R through a series of practical data projects."
+    - title: "Camelot Caves Inc. - Power BI"
+      date: 2024-12-10
+      path: https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+      categories: 
+        - "Power BI"
+        - "Data Viz"
+        - "Education"
+      description: "This is for an accounting case, namely Camelot Caves Inc. See 'Visual Analytics for Camelot Caves Inc. (CCI)' in 'For Education' section for more details."
+    - title: "Camelot Caves Inc. - Tableau"
+      date: 2024-12-10
+      categories: 
+        - "Tableau"
+        - "Data Viz"
+        - "Education"
+      path: https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+      description: "This is for an accounting case, namely Camelot Caves Inc. See 'Visual Analytics for Camelot Caves Inc. (CCI)' in 'For Education' section for more details."
   sort: 
     - "date desc"
 ---
@@ -23,6 +63,18 @@ listing:
 ## Welcome
 
 Hello! Here is a collection of my hobby projects done with various tools.
+
+## How Does This Work?
+
+To start with, you will be able to find a list of all my projects. 
+
+There is also a search box that allows you to search by a project name (like Camelot Caves Inc.) or filter by a particular tag (like "Power BI").
+
+Click on any project name will redirect you to view a particular project.
+
+After you are redirected to that project, and if you wish to come back to this page, you can easily do so by clicking the "Go Back" button on your browser. 
+
+Have fun and enjoy! 
 
 -------
 
