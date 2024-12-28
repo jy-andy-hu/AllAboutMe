@@ -56,6 +56,15 @@ listing:
         - "Education"
       path: https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
       description: "This is for an accounting case, namely Camelot Caves Inc. See 'Visual Analytics for Camelot Caves Inc. (CCI)' in 'For Education' section for more details."
+    - title: "S&P 500 Volatility Cluster Analysis"
+      date: 2024-12-17
+      categories: 
+        - "Python"
+        - "Data Engineering"
+        - "Data Science"
+        - "Education"
+      path: https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html
+      description: "A personal demo project with the goal to use the broad stock index S&P500 to model and understand the index volatility levels."
   sort: 
     - "date desc"
 ---
