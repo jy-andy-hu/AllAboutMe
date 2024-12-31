@@ -31,6 +31,12 @@ website:
         contents:
           - text: "Camelot Caves Inc. (CCI)"
             href: accounting_cci.qmd
+          - text: "Introduction to SQL (MySQL)"
+            href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
+          - text: "SQL: From the Basics to Creating a Functional View"
+            href: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
+          - text: "A Collection of Practical Projects with R"
+            href: https://jy-andy-hu.github.io/Education_R/
 
 format:
   html:

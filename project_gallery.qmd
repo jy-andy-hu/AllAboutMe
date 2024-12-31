@@ -12,27 +12,55 @@ listing:
   fields: 
     - "date"
     - "title"
+    - "image"
     - "categories"
     - "description"
+  sort-ui: true
   filter-ui: [title, categories]
   contents: 
+    - title: "What to Do with Wheat, R Version"
+      date: 2022-04-22
+      image: images\R_logo.png
+      categories: 
+        - "R"
+        - "Data Engineering"
+        - "Linear Optimization"
+      path: https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb
+      description: "A personal demo project to build a proof of concept for inventory purchase optimizer. Both R and Python versions are available. This is R version."
+
+    - title: "What to Do with Wheat, Python Version"
+      date: 2022-06-05
+      image: images\Python-Symbol.png
+      categories: 
+        - "Python"
+        - "Data Engineering"
+        - "Linear Optimization"
+      path: https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat.ipynb
+      description: "A personal demo project to build a proof of concept for inventory purchase optimizer. Both R and Python versions are available. This is Python version."
+
+    - title: "SQL: From the Basics to Creating a Functional View"
+      date: 2022-06-05
+      image: images\sql_server_logo.png
+      categories: 
+        - "T-SQL"
+        - "Data Engineering"
+        - "Relational Database"
+        - "Education"
+      path: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
+      description: "A fast project intended to help SQL beginners to being highly functional, through a practical practical use case, modelled by AdventureWorks (Microsoft) demo database."    
+
     - title: "Global Superstore Performance"
       date: 2023-12-05
+      image: images\Logo-power-BI.png
       categories: 
         - "Power BI"
         - "Data Viz"
       path: https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
       description: "This is an inspiration from the classic Tableau demo project - Global Superstore reimagined and expressed in Power BI."
-    - title: "Introduction to SQL"
-      date: 2024-11-10
-      categories: 
-        - "SQL"
-        - "Data Engineering"
-        - "Education"
-      path: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
-      description: "This workbook is designed for my students to learn basics of SQL using MySQL database as the database environment."
+
     - title: "A Collection of Practical Projects with R"
       date: 2024-08-20
+      image: images\R_logo.png
       categories: 
         - "R"
         - "Data Engineering"
@@ -40,31 +68,49 @@ listing:
         - "Education"
       path: https://jy-andy-hu.github.io/Education_R/
       description: "This collection is designed for my students or anyone who want to be productive and analytical with R through a series of practical data projects."
+
+    - title: "Introduction to SQL"
+      date: 2024-11-10
+      image: images\MySQL-Logo.svg
+      categories: 
+        - "SQL"
+        - "Data Engineering"
+        - "Education"
+      path: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
+      description: "This workbook is designed for my students to learn basics of SQL using MySQL database as the database environment."
+
     - title: "Camelot Caves Inc. - Power BI"
       date: 2024-12-10
-      path: https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+      image: images\Logo-power-BI.png
       categories: 
         - "Power BI"
         - "Data Viz"
+        - "Management Accounting"
         - "Education"
+      path: https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
       description: "This is for an accounting case, namely Camelot Caves Inc. See 'Visual Analytics for Camelot Caves Inc. (CCI)' in 'For Education' section for more details."
+
     - title: "Camelot Caves Inc. - Tableau"
       date: 2024-12-10
+      image: images\Logo-Tableau.png
       categories: 
         - "Tableau"
         - "Data Viz"
+        - "Management Accounting"
         - "Education"
       path: https://public.tableau.com/views/WineAnalytics-AndyHuV3/SpeicalNotes?:language=en-GB&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
       description: "This is for an accounting case, namely Camelot Caves Inc. See 'Visual Analytics for Camelot Caves Inc. (CCI)' in 'For Education' section for more details."
+
     - title: "S&P 500 Volatility Cluster Analysis"
       date: 2024-12-17
+      image: images\Python-Symbol.png
       categories: 
         - "Python"
         - "Data Engineering"
         - "Data Science"
-        - "Education"
       path: https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html
       description: "A personal demo project with the goal to use the broad stock index S&P500 to model and understand the index volatility levels."
+
   sort: 
     - "date desc"
 ---

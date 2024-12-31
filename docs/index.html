@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -34,10 +34,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-c8d5cbfe0a114cce0d624ba687662ee5.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -135,6 +135,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="menu-text">Camelot Caves Inc.&nbsp;(CCI)</span></a>
   </div>
 </li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://jy-andy-hu.github.io/Education_MySQL_Introduction/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Introduction to SQL (MySQL)</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">SQL: From the Basics to Creating a Functional View</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="https://jy-andy-hu.github.io/Education_R/" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">A Collection of Practical Projects with R</span></a>
+  </div>
+</li>
       </ul>
   </li>
     </ul>
@@ -169,7 +187,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 data-anchor-id="more-about-me">More About Me</h2>
 <p>I am glad that you are interested in me enough to read along here. I am a CPA, so by trade, that makes me an accountant.</p>
 <p>That said, I’m a data nerd, too. Occasionally, I make a bunch of funny names like R, Python, SQL, Excel, Microsoft Fabric (including Power BI), Tableau etc. all dance together so that people can make the best out of their data. People also call me analytics engineer at times. I’m a big in the magic when you mix classic accounting with modern analytics – it’s like peanut butter and jelly, but for business.</p>
-<p>Education is a BIG deal to me. I love helping others to grow. When I’m not nerding out things, you can find me in the classroom, teaching courses at colleges/universities/professional associations. Subjects vary: accounting, statistics, data tool stacks, you name it.</p>
+<p>Education is a BIG deal to me. I love helping others to grow. When I’m not nerding out things, you can find me in the classroom, teaching courses at colleges/universities/group training. Subjects vary: accounting, statistics, data tool stacks, you name it. In addition, I mentor and coach apsiring professionals as well.</p>
 <p>I am leaving my LinkedIn contact right below. If you believe I can make your life better in anyways, or if you like exchange ideas, let’s connect! 🤝</p>
 </section>
 </div> 
@@ -266,8 +284,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -378,7 +394,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
