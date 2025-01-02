@@ -75,6 +75,7 @@ listing:
       categories: 
         - "Power BI"
         - "Data Viz"
+        - "Public Policy"
         - "Education"
       path: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
       description: "This is an education Power BI project designed for students who are in Master of Public Admin program and are brand new to Power BI. Data used from Statistics Canada, Consumer Income Survey (2021)."
