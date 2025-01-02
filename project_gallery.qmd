@@ -69,6 +69,16 @@ listing:
       path: https://jy-andy-hu.github.io/Education_R/
       description: "This collection is designed for my students or anyone who want to be productive and analytical with R through a series of practical data projects."
 
+    - title: "Canadian Poverty Overview During COVID (2021)"
+      date: 2024-11-10
+      image: images\Logo-power-BI.png
+      categories: 
+        - "Power BI"
+        - "Data Viz"
+        - "Education"
+      path: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+      description: "This is an education Power BI project designed for students who are in Master of Public Admin program and are brand new to Power BI. Data used from Statistics Canada, Consumer Income Survey (2021)."
+
     - title: "Introduction to SQL"
       date: 2024-11-10
       image: images\MySQL-Logo.svg

@@ -37,6 +37,8 @@ website:
             href: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
           - text: "A Collection of Practical Projects with R"
             href: https://jy-andy-hu.github.io/Education_R/
+          - text: "Canadian Poverty Overview During COVID (2021)"
+            href: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
 
 format:
   html:
