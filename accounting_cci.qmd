@@ -30,7 +30,7 @@ Please see "Special Credits" page of the report for full credits and acknowledge
 
 ## Power BI
 
-For Power BI version, please following the link here: [Camelot Caves Inc. Power BI](https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9)
+For Power BI version, please following the link here: [Camelot Caves Inc. Power BI](https://app.powerbi.com/view?r=eyJrIjoiYTQzN2U0NDAtMmZjZC00MWU0LTg3NzMtZjI3ZjgyMTg4OGI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9)
 
 ## Tableau
 
