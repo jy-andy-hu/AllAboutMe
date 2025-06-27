@@ -1,5 +1,5 @@
 ---
-title: "Welcome!!! 🎉🎉" 
+title: "🎉 Welcome!!! 🎉" 
 about: 
   id: big-heading
   template: jolla
@@ -16,19 +16,20 @@ about:
 
 ## Warm Greetings!
 
-My name is Jianyuan(most people will know me as Andy) Hu. TDLR, I am a CPA and am now quite active as an analytics engineer. Once again thank you for paying me a visit.
+My name is Jianyuan(most people will know me as Andy) Hu. TDLR, I am a CPA and am now quite active as an analytics engineer. Once again thank you for paying me a visit. If you are interested in:
 
--   If you are interested in knowing more about me, please continue to "More About Me". Or,
--   If you are interested in what I have been working on and you can find all of it under the "Project Gallery" on the left navigation panel.
+- knowing more about me 😎, please continue to "More About Me". Or,
+- my hobby data projects 📊, please head to "Project Gallery" on the left navigation panel.
+- my endeavors in education/helping others upskill in data analytics 📚, please head to "Education Gallery" on the left navigation panel.
 
 ## More About Me
 
-I am glad that you are interested in me enough to read along here. I am a CPA, so by trade, that makes me an accountant. 
+I am glad that you are interested in me enough to read along here. I am a CPA, so by trade, that makes me an accountant. 👨🏻‍💼💼
 
 That said, I’m a data nerd, too. Occasionally, I make a bunch of funny names like R, Python, SQL, Excel, Microsoft Fabric (including Power BI), Tableau etc. all dance together so that people can make the best out of their data. People also call me analytics engineer at times. I’m a big in the magic when you mix classic accounting with modern analytics – it's like peanut butter and jelly, but for business.
 
-Education is a BIG deal to me. I love helping others to grow. When I’m not nerding out things, you can find me in the classroom, teaching courses at colleges/universities/group training. Subjects vary: accounting, statistics, data tool stacks, you name it. In addition, I mentor and coach apsiring professionals as well.
+Education is a BIG deal to me. I love helping others to grow, especially realizing their hidden potential. When I’m not nerding out things 🧑🏻‍💻, you can find me in the classroom, teaching courses at colleges/universities/group training. Subjects vary: accounting, statistics, data tool stacks, you name it. In addition, I mentor and coach apsiring professionals through various competitions and exam preparations, as well.
 
-I am leaving my LinkedIn contact right below. If you believe I can make your life better in anyways, or if you like exchange ideas, let's connect! 🤝
+If you believe I can make your life better in anyways, or if you like exchange ideas, let's connect! 🤝 You can find me through LinkedIn via the LinkedIn icon at the upper left corner of this page. 😎
 
 :::

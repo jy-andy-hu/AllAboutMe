@@ -22,26 +22,33 @@ website:
       href: http://linkedin.com/in/andyhu1
     - icon: github
       href: https://github.com/jy-andy-hu
+    - icon: person-square
+      href: https://jy-andy-hu.github.io/AllAboutMe/
     contents:
       - text: "About Me"
         href: index.qmd
       - text: "Project Gallery"
-        href: project_gallery.qmd
-      - section: "For Education"
-        contents:
-          - text: "Camelot Caves Inc. (CCI)"
-            href: accounting_cci.qmd
-          - text: "Introduction to SQL (MySQL)"
-            href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
-          - text: "SQL: From the Basics to Creating a Functional View"
-            href: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
-          - text: "A Collection of Practical Projects with R"
-            href: https://jy-andy-hu.github.io/Education_R/
-          - text: "Canadian Poverty Overview During COVID (2021)"
-            href: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+        href: hobby_project_gallery.qmd
+      - text: "Education Gallery"
+        href: education_gallary.qmd
+      # - section: "For Education"
+      #   contents:
+      #     - text: "Camelot Caves Inc. (CCI)"
+      #       href: accounting_cci.qmd
+          # - text: "Introduction to SQL (MySQL)"
+          #   href: https://jy-andy-hu.github.io/Education_MySQL_Introduction/
+          # - text: "SQL: From the Basics to Creating a Functional View"
+            # href: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
+          # - text: "A Collection of Practical Projects with R"
+          #   href: https://jy-andy-hu.github.io/Education_R/
+          # - text: "Canadian Poverty Overview During COVID (2021)"
+          #   href: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
 
 format:
   html:
     theme: cerulean
     css: styles.css
     toc: true
+    toc-location: left
+
+date: 2025-06-30

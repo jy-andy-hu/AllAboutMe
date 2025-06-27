@@ -1,0 +1,136 @@
+---
+title: "Education Gallary"
+date: 2025-06-30
+author: Jianyuan(Andy) Hu
+
+toc: false
+
+listing: 
+  type: default
+  categories: true
+  date-format: iso
+  fields: 
+    - "date"
+    - "title"
+    - "image"
+    - "categories"
+    - "description"
+  sort-ui: true
+  filter-ui: [title, categories]
+  contents: 
+    - title: "Introduction to SQL (MySQL)"
+      date: 2024-11-01
+      image: images\MySQL-Logo.svg
+      categories: 
+        - "SQL"
+        - "Data Engineering"
+        - "Difficulty: Beginner Friendly"
+      path: https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb
+      description: "An introduction to basic SQL focusing on managing tables, data wrangling, with the context of MySQL."
+
+    - title: "SQL: From the Basics to Creating a Functional View"
+      date: 2023-02-01
+      image: images\sql_server_logo.png
+      categories: 
+        - "SQL"
+        - "Data Engineering"
+        - "Difficulty: Beginner Friendly"
+      path: https://github.com/jy-andy-hu/andy-hu-education/blob/main/SQL/AdventureWorks/SQL_Basics_Create_Useful_Compensation_View.ipynb
+      description: "An introduction to SQL focusing on working with multuple tables in an enterprise schema, with the context of T-SQL"
+
+    - title: "A Collection of Practical Projects with R"
+      date: 2024-08-20
+      image: images\R_logo.png
+      categories: 
+        - "R"
+        - "Data Engineering"
+        - "Data Visualization"
+        - "Difficulty: Various Levels"
+      path: https://jy-andy-hu.github.io/Education_R/
+      description: "This collection is designed for my students or anyone who want to be productive and analytical with R through a series of practical data projects."
+
+    - title: "Canadian Poverty Overview During COVID (2021)"
+      date: 2024-11-10
+      image: images\Logo-power-BI.png
+      categories: 
+        - "Power BI"
+        - "Data Visualization"
+        - "Public Policy"
+        - "Difficulty: Beginner Friendly"
+      path: https://app.powerbi.com/view?r=eyJrIjoiNjlhYThmNDAtNWY4YS00ZTFkLTlkMDYtZjJmYTQwNzZjNWI5IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9
+      description: "This is an education Power BI project designed for students who are in Master of Public Admin program and are brand new to Power BI. Data used from Statistics Canada, Consumer Income Survey (2021)."
+
+    - title: "Camelot Caves Inc."
+      date: 2025-05-31
+      image: images\powerbi-tableau-side.png
+      categories: 
+        - "Tableau"
+        - "Power BI"
+        - "Data Visualization"
+        - "Management Accounting"
+        - "Difficulty: Various Levels"
+      path: https://jy-andy-hu.github.io/CamelotCavesInc/
+      description: "This is for a management accounting case, namely Camelot Caves Inc, aiming to provide a versatile playground for a range of accounting and educational learning outcomes. Click to learn more."
+
+    - title: "Elevate Accounting with Analytics (R Version)"
+      date: 2025-06-30
+      image: images\R_logo.png
+      categories: 
+        - "R"
+        - "Data Engineering"
+        - "Management Accounting"
+        - "Difficulty: Beginner Friendly"
+      path: https://jy-andy-hu.github.io/DataAnalyticsForAccountants/chapters/ElevateAccountingWithAnalytics-R.html
+      description: Part of Data Analytics for Accouting Folks series, this session provides direct introductory entry to data analytics through a practical accounting exercise and a beginner friendly yet powerful language, R. Click to find out more.
+
+    - title: "Excel and Python: A Tale of Two Power Tools"
+      date: 2025-06-30
+      image: images\python-excel-merged.png
+      categories: 
+        - "Microsoft Excel"
+        - "Python"
+        - "Data Analysis"
+        - "Data Visualization"
+        - "Difficulty: Beginner Friendly"
+      path: https://jy-andy-hu.github.io/DataAnalyticsForAccountants/chapters/Excel-Python.html
+      description: Part of Data Analytics for Accouting Folks series. This session provides transition to data analytics with Python in Excel, desgined for accounting folks who are typically strong in Microsoft Excel, meanwhile advancing their Excel skills. Click to find out more.
+
+    - title: "Elevate Accounting with Analytics (Python Version)"
+      date: 2025-06-30
+      image: images\Python-Symbol.png
+      categories: 
+        - "Tableau"
+        - "Data Engineering"
+        - "Management Accounting"
+        - "Difficulty: Intermediate"
+      path: https://jy-andy-hu.github.io/DataAnalyticsForAccountants/chapters/ElevateAccountingWithAnalytics-Python.html
+      description: Part of Data Analytics for Accouting Folks series, mirroring its R version of the session, this session provides formal introduction to data analytics in full Python environment. Click to find out more.
+  
+  sort: 
+    - "date desc"
+---
+
+## Welcome
+
+Hello! Here is a collection of my educational projects/cotent I developed over time as I taught at different institutions to various audiences. As I said in my welcome message: education 🧑🏻‍🏫 has a particular place in my heart... 
+
+Here, you will be able to find out what I have done... and with a lot more to come...
+
+## How Does This Work?
+
+To start with, you will be able to find a list of all my projects. 
+
+There is also a search box that allows you to search by a project name (like Camelot Caves Inc.) or filter by a particular tag (like "Power BI").
+
+Click on any project name will redirect you to view a particular educational project.
+
+After you are redirected to that project, and if you wish to come back to this page, you can easily do so by clicking the "Go Back" button on your browser. 
+
+If you find anything interesting feel free to use them and I hope it can be valuable to you.
+
+If you like what you see and would like to collaborate on or deliver something, feel free to reach out through LinkedIn, right here on this page (upper left corner, LinkedIn logo).
+
+Have fun and enjoy! 😃
+
+-------
+

@@ -1,6 +1,10 @@
 [
   {
-    "listing": "/project_gallery.html",
+    "listing": "/education_gallary.html",
+    "items": []
+  },
+  {
+    "listing": "/hobby_project_gallery.html",
     "items": []
   }
 ]

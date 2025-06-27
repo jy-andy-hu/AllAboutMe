@@ -6,9 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Jianyuan(Andy) Hu">
 <meta name="dcterms.date" content="2025-06-30">
 
-<title>🎉 Welcome!!! 🎉 – Jianyuan(Andy) Hu</title>
+<title>Hobby Project Gallary – Jianyuan(Andy) Hu</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,10 +32,13 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-37eea08aefeeee20ff55810ff984fec1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -67,12 +71,70 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-image','listing-categories','listing-description',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +143,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html">About Me</a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./hobby_project_gallery.html">Project Gallery</a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -113,13 +175,13 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">About Me</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./hobby_project_gallery.html" class="sidebar-item-text sidebar-link">
+  <a href="./hobby_project_gallery.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Project Gallery</span></a>
   </div>
 </li>
@@ -131,67 +193,287 @@ ul.task-list li input[type="checkbox"] {
 </li>
     </ul>
     </div>
+    
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(6)</span></div><div class="category" data-category="RGF0YSUyMEVuZ2luZWVyaW5n">Data Engineering <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RGF0YSUyMFNjaWVuY2U=">Data Science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGl6YXRpb24=">Data Visualization <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpeg==">Data Viz <span class="quarto-category-count">(2)</span></div><div class="category" data-category="RWR1Y2F0aW9u">Education <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TGluZWFyJTIwT3B0aW1pemF0aW9u">Linear Optimization <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFuYWdlbWVudCUyMEFjY291bnRpbmc=">Management Accounting <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UG93ZXIlMjBCSQ==">Power BI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHl0aG9u">Python <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Ug==">R <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGFibGVhdQ==">Tableau <span class="quarto-category-count">(2)</span></div></div></div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
-
-
-
-<div class="quarto-about-jolla">
- <header id="title-block-header" class="quarto-title-block default">
+<header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">🎉 Welcome!!! 🎉</h1>
+<h1 class="title">Hobby Project Gallary</h1>
 </div>
+
+
+
 <div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">Author</div>
+    <div class="quarto-title-meta-contents">
+             <p>Jianyuan(Andy) Hu </p>
+          </div>
+  </div>
+    
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
       <p class="date">June 30, 2025</p>
     </div>
   </div>
+  
+    
   </div>
-</header><div id="big-heading">
-<section id="warm-greetings" class="level2">
-<h2 data-anchor-id="warm-greetings">Warm Greetings!</h2>
-<p>My name is Jianyuan(most people will know me as Andy) Hu. TDLR, I am a CPA and am now quite active as an analytics engineer. Once again thank you for paying me a visit. If you are interested in:</p>
-<ul>
-<li>knowing more about me 😎, please continue to “More About Me”. Or,</li>
-<li>my hobby data projects 📊, please head to “Project Gallery” on the left navigation panel.</li>
-<li>my endeavors in education/helping others upskill in data analytics 📚, please head to “Education Gallery” on the left navigation panel.</li>
-</ul>
+  
+
+
+</header>
+
+
+<section id="welcome" class="level2">
+<h2 class="anchored" data-anchor-id="welcome">Welcome</h2>
+<p>Hello! Here is a collection of my hobby projects done with various tools… 📊📈🧑🏻‍💻</p>
 </section>
-<section id="more-about-me" class="level2">
-<h2 data-anchor-id="more-about-me">More About Me</h2>
-<p>I am glad that you are interested in me enough to read along here. I am a CPA, so by trade, that makes me an accountant. 👨🏻‍💼💼</p>
-<p>That said, I’m a data nerd, too. Occasionally, I make a bunch of funny names like R, Python, SQL, Excel, Microsoft Fabric (including Power BI), Tableau etc. all dance together so that people can make the best out of their data. People also call me analytics engineer at times. I’m a big in the magic when you mix classic accounting with modern analytics – it’s like peanut butter and jelly, but for business.</p>
-<p>Education is a BIG deal to me. I love helping others to grow, especially realizing their hidden potential. When I’m not nerding out things 🧑🏻‍💻, you can find me in the classroom, teaching courses at colleges/universities/group training. Subjects vary: accounting, statistics, data tool stacks, you name it. In addition, I mentor and coach apsiring professionals through various competitions and exam preparations, as well.</p>
-<p>If you believe I can make your life better in anyways, or if you like exchange ideas, let’s connect! 🤝 You can find me through LinkedIn via the LinkedIn icon at the upper left corner of this page. 😎</p>
+<section id="how-does-this-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-this-work">How Does This Work?</h2>
+<p>To start with, you will be able to find a list of all my projects.</p>
+<p>There is also a search box that allows you to search by a project name (like Camelot Caves Inc.) or filter by a particular tag (like “Power BI”).</p>
+<p>Click on any project name will redirect you to view a particular project.</p>
+<p>After you are redirected to that project, and if you wish to come back to this page, you can easily do so by clicking the “Go Back” button on your browser.</p>
+<p>Have fun and enjoy! 😃</p>
+<hr>
+
+
+
 </section>
-</div> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="http://linkedin.com/in/andyhu1" class="about-link" rel="" target="">
-    <i class="bi bi-linkedin"></i>
-     <span class="about-link-text">LinkedIn</span>
-  </a>
-  <a href="https://github.com/jy-andy-hu" class="about-link" rel="" target="">
-    <i class="bi bi-github"></i>
-     <span class="about-link-text">Github</span>
-  </a>
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="listing-actions-group">
+   <div class="input-group input-group-sm quarto-listing-sort">
+    <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
+    <select id="listing-listing-sort" class="form-select" aria-label="Order By" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
+      <option value="" disabled="" selected="" hidden="">Order By</option>
+      <option value="index" data-direction="asc">Default</option>
+      <option value="listing-title" data-direction="asc">
+        Title
+      </option>
+      <option value="listing-date-sort" data-direction="asc">
+        Date - Oldest
+      </option>
+      <option value="listing-date-sort" data-direction="desc">
+        Date - Newest
+      </option>
+    </select>
+  </div>
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="VGFibGVhdSUyQ0RhdGElMjBWaXolMkNNYW5hZ2VtZW50JTIwQWNjb3VudGluZyUyQ0VkdWNhdGlvbg==" data-listing-date-sort="1748664000000">
+<div class="thumbnail"><a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+
+<img loading="lazy" src="images\Logo-Tableau.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">Camelot Caves Inc.&nbsp;- Power BI</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">Tableau</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpeg=='); return false;">Data Viz</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TWFuYWdlbWVudCUyMEFjY291bnRpbmc='); return false;">Management Accounting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2F0aW9u'); return false;">Education</div>
+
+</div>
+<div class="delink listing-description"><a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+<p>This is for an accounting case, namely Camelot Caves Inc.&nbsp;See ‘Visual Analytics for Camelot Caves Inc.&nbsp;(CCI)’ in ‘For Education’ section for more details.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiZjk4ZjliZDItNTQxYi00ZWM5LTg2YzItMmUyZDdiNmY3OTYyIiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+<div class="listing-date">
+2025-05-31
+</div>
+</a>
 </div>
 </div>
+<div class="quarto-post image-right" data-index="1" data-categories="VGFibGVhdSUyQ0RhdGElMjBWaXolMkNNYW5hZ2VtZW50JTIwQWNjb3VudGluZyUyQ0VkdWNhdGlvbg==" data-listing-date-sort="1748664000000">
+<div class="thumbnail"><a href="https://public.tableau.com/views/WineAnalytics-AndyHu/SpeicalNotes?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">
 
+<img loading="lazy" src="images\Logo-Tableau.png" class="thumbnail-image">
 
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHu/SpeicalNotes?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">Camelot Caves Inc.&nbsp;- Tableau</a>
+</h3>
+<div class="listing-categories">
 
+<div class="listing-category" onclick="window.quartoListingCategory('VGFibGVhdQ=='); return false;">Tableau</div>
 
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpeg=='); return false;">Data Viz</div>
 
-</main> <!-- /main -->
+<div class="listing-category" onclick="window.quartoListingCategory('TWFuYWdlbWVudCUyMEFjY291bnRpbmc='); return false;">Management Accounting</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RWR1Y2F0aW9u'); return false;">Education</div>
+
+</div>
+<div class="delink listing-description"><a href="https://public.tableau.com/views/WineAnalytics-AndyHu/SpeicalNotes?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">
+<p>This is for an accounting case, namely Camelot Caves Inc.&nbsp;See ‘Visual Analytics for Camelot Caves Inc.&nbsp;(CCI)’ in ‘For Education’ section for more details.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://public.tableau.com/views/WineAnalytics-AndyHu/SpeicalNotes?:language=en-US&amp;:sid=&amp;:redirect=auth&amp;:display_count=n&amp;:origin=viz_share_link" class="no-external">
+<div class="listing-date">
+2025-05-31
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="UHl0aG9uJTJDRGF0YSUyMEVuZ2luZWVyaW5nJTJDRGF0YSUyMFNjaWVuY2U=" data-listing-date-sort="1734411600000">
+<div class="thumbnail"><a href="https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html" class="no-external">
+
+<img loading="lazy" src="images\Python-Symbol.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html" class="no-external">S&amp;P 500 Volatility Cluster Analysis</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEVuZ2luZWVyaW5n'); return false;">Data Engineering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFNjaWVuY2U='); return false;">Data Science</div>
+
+</div>
+<div class="delink listing-description"><a href="https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html" class="no-external">
+<p>A personal demo project with the goal to use the broad stock index S&amp;P500 to model and understand the index volatility levels.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://jy-andy-hu.github.io/sp500_vol_regime/Program/SP500_Vol_Clussters.html" class="no-external">
+<div class="listing-date">
+2024-12-17
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="UG93ZXIlMjBCSSUyQ0RhdGElMjBWaXN1YWxpemF0aW9u" data-listing-date-sort="1701752400000">
+<div class="thumbnail"><a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+
+<img loading="lazy" src="images\Logo-power-BI.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">Global Superstore Performance</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UG93ZXIlMjBCSQ=='); return false;">Power BI</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMFZpc3VhbGl6YXRpb24='); return false;">Data Visualization</div>
+
+</div>
+<div class="delink listing-description"><a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+<p>This is an inspiration from the classic Tableau demo project - Global Superstore reimagined and expressed in Power BI.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://app.powerbi.com/view?r=eyJrIjoiMGRlMThmODYtMzIyOC00NmJhLTliZGEtNTMzYWM0NGE5N2Q4IiwidCI6IjJlYTIwYzQ3LTNlZjUtNDNkNy1iZWQ3LWIwNDBmYzBhMzkyNiIsImMiOjZ9" class="no-external">
+<div class="listing-date">
+2023-12-05
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="UHl0aG9uJTJDRGF0YSUyMEVuZ2luZWVyaW5nJTJDTGluZWFyJTIwT3B0aW1pemF0aW9u" data-listing-date-sort="1654401600000">
+<div class="thumbnail"><a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat.ipynb" class="no-external">
+
+<img loading="lazy" src="images\Python-Symbol.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat.ipynb" class="no-external">What to Do with Wheat, Python Version</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHl0aG9u'); return false;">Python</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEVuZ2luZWVyaW5n'); return false;">Data Engineering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGluZWFyJTIwT3B0aW1pemF0aW9u'); return false;">Linear Optimization</div>
+
+</div>
+<div class="delink listing-description"><a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat.ipynb" class="no-external">
+<p>A personal demo project to build a proof of concept for inventory purchase optimizer. Both R and Python versions are available. This is Python version.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat.ipynb" class="no-external">
+<div class="listing-date">
+2022-06-05
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="UiUyQ0RhdGElMjBFbmdpbmVlcmluZyUyQ0xpbmVhciUyME9wdGltaXphdGlvbg==" data-listing-date-sort="1650600000000">
+<div class="thumbnail"><a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb" class="no-external">
+
+<img loading="lazy" src="images\R_logo.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb" class="no-external">What to Do with Wheat, R Version</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Ug=='); return false;">R</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('RGF0YSUyMEVuZ2luZWVyaW5n'); return false;">Data Engineering</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TGluZWFyJTIwT3B0aW1pemF0aW9u'); return false;">Linear Optimization</div>
+
+</div>
+<div class="delink listing-description"><a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb" class="no-external">
+<p>A personal demo project to build a proof of concept for inventory purchase optimizer. Both R and Python versions are available. This is R version.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="https://github.com/jy-andy-hu/Data_Science_Projects/blob/main/What_to_Do_with_Wheat/What_to_Do_with_Wheat_R_Version.ipynb" class="no-external">
+<div class="listing-date">
+2022-04-22
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     
